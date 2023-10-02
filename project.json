@@ -1,7 +1,7 @@
 {
   "name": "REF_RpaChallenge",
   "projectId": "109d5944-7a0e-47a3-9f24-dc20a1990262",
-  "description": "",
+  "description": "A bot that gets the data from an excel file and then input into the rpachallenge.com website using the REFramework.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.1-preview]",
