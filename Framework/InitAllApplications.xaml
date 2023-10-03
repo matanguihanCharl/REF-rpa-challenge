@@ -92,7 +92,15 @@
     <ui:LogMessage DisplayName="Log message (Initialize applications)" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Opening applications...&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="RPA Challenge Processes\Seq__Launch_Application.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="RPA Challenge Processes\Seq__Launch_Application.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_WebURL">[in_Config("WebURL").ToString]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_WebURL">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;WebURL&quot;).ToString" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FilePath">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;FilePath&quot;).ToString" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FileName">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;FileName&quot;).ToString" />
+        </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
   </Sequence>
