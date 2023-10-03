@@ -196,7 +196,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'chrome.exe  Save As'" sap:VirtualizedContainerService.HintSize="484,980" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="9b8c580cefcd8591223bc3d4eae70e12" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;">
+            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window Save Excel File" sap:VirtualizedContainerService.HintSize="484,980" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="9b8c580cefcd8591223bc3d4eae70e12" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;">
               <ui:WindowScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
